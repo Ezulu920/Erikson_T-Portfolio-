@@ -187,7 +187,7 @@ nav {
   height: 100vh;
   background: linear-gradient(
       135deg,
-      rgba(2, 94, 112, 0.9) 0%,
+      rgba(2, 94, 112, 0.9) 9%,
       rgba(54, 34, 73, 0.8) 100%
     ),
     url("/images/drawing.png") center no-repeat;
@@ -233,7 +233,7 @@ nav {
     border-right: 4px solid rgba(0, 173, 241, 0);
   }
   100% {
-    border-right: 4px solid rgb(196, 1, 255);
+    border-right: 4px solid rgb(1, 69, 255);
   }
 }
 
@@ -344,16 +344,14 @@ hr {
 /* Specialties */
 
 .specialty {
-  padding: 3rem 0;
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 90rem;
   margin: auto;
 }
 
 .title-heading {
   text-align: center;
-  margin-bottom: 1rem;
-  padding-bottom: 7rem;
+  padding: 0 0 3;
 }
 
 .title-heading h2 {
@@ -373,7 +371,7 @@ hr {
 }
 
 .tier-item {
-  height: 30rem;
+  height: 25rem;
   padding: 3rem;
   position: relative;
   display: flex;
@@ -388,7 +386,7 @@ hr {
 
 .tier-item h2 {
   font-size: 2rem;
-  margin: 2rem 0;
+  margin: 2rem -2rem;
   background: linear-gradient(
     to right,
     rgb(145, 17, 250) 0%,
@@ -512,26 +510,23 @@ hr {
 .contact {
   width: 100%;
   min-height: 100vh;
-  max-width: 70rem;
+  max-width: 50rem;
   margin: auto;
-  padding-top: 5rem;
 }
 
 .contact h2 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 5rem;
+  font-size: 4.5rem;
 }
 
 .contact p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.4rem;
-  padding: 0;
-  margin: 0.9rem 2rem;
+  font-size: 2.2rem;
+  margin: 2rem 1rem;
 }
 
 .contact .container {
-  min-height: 50vh;
+  min-height: 30vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -539,21 +534,23 @@ hr {
 
 /* Footer */
 
+#footer-div{
+  min-height: 10vh;
+}
+
 footer {
   width: 100%;
-  max-width: 70rem;
+  max-width: 60rem;
   margin: auto;
-  padding: 2.5rem;
   color: #8a8a8a;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
 }
 
 footer a {
-  margin: 0 0.2rem;
+  margin: 0 0.9rem;
 }
 
 .footer-coded-by {
@@ -561,7 +558,7 @@ footer a {
 }
 
 .footer-social a {
-  margin: 0 0.5rem;
+  margin: 0 0.1rem;
   font-size: 2rem;
 }
 
@@ -586,7 +583,7 @@ footer a {
   }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 6px) {
   .main-message {
     top: 55%;
   }
@@ -628,7 +625,7 @@ footer a {
 
   footer,
   footer p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 }
 
